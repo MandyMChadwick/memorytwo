@@ -3,7 +3,16 @@ import Cards from './components/cards'
 function App() {
   return (
     <div className="App">
-      <h1>Memory Game - React</h1>
+     <div className="title-container">
+      <br>
+      </br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      
+        <h1>Minding Babies</h1>
+      </div>
       <Cards />
     </div>
   );

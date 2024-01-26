@@ -14,14 +14,18 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+.title-container {
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 1em;
+}
 h1 {
   text-align: center;
   margin-bottom: 1em;
 }
 .container {
-  height: 700px;
-  width: 700px;
+  height: 20em;
+  width: 20em;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -33,7 +37,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 1em;
   transform: rotateY(180deg);
   animation: 2s hideCard linear;
   transition: transform 0.5s;
