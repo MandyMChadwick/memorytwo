@@ -1,11 +1,11 @@
-
-
+import Cards from './components/cards'
 
 function App() {
   return (
     <div className="App">
-       Hello World
-       </div>
+      <h1>Memory Game - React</h1>
+      <Cards />
+    </div>
   );
 }
 
